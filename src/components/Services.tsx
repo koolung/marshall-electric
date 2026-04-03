@@ -86,7 +86,7 @@ export default function Services() {
                 {/* Actions */}
                 <div className="mt-5 flex items-center gap-3">
                   <a
-                    href="tel:+15551234567"
+                    href="tel:(902)802-9044"
                     className="inline-flex items-center gap-2 rounded-full bg-[#1172ae] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#3b9dd4] transition-colors duration-200 shadow-lg shadow-[#1172ae]/25"
                   >
                     <Phone className="h-4 w-4" />

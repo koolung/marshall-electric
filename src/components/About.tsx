@@ -5,7 +5,7 @@ import { Users, Zap, CheckCircle2, TrendingUp } from "lucide-react";
 
 const stats = [
   { icon: Zap, value: "15+", label: "Years of Experience" },
-  { icon: Users, value: "Family", label: "Owned & Operated" },
+  { icon: Users, value: "Locally", label: "Owned & Operated" },
   { icon: CheckCircle2, value: "HRM", label: "Area Served" },
   { icon: TrendingUp, value: "100%", label: "Satisfaction Rate" },
 ];
@@ -33,7 +33,7 @@ export default function About() {
               <span className="text-[#1172ae]">We Are</span>
             </h2>
             <p className="mt-6 text-gray-600 leading-relaxed">
-              Marshall Electric is a family-owned and operated business that was
+              Marshall Electric is a locally-owned and operated business that was
               established in 2020. Serving the HRM area, we take pride in all
               that we do and have over 15 years of experience in the electrical
               trade. This experience allows us to assist with a wide range of
@@ -41,7 +41,7 @@ export default function About() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              {["Family Owned", "Licensed & Insured", "HRM Area", "Est. 2020"].map(
+              {["Locally Owned", "Licensed & Insured", "HRM Area", "Est. 2020"].map(
                 (tag) => (
                   <span
                     key={tag}

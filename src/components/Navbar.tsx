@@ -62,7 +62,7 @@ export default function Navbar() {
         {/* CTA + Mobile toggle */}
         <div className="flex items-center gap-4">
           <a
-            href="tel:+15551234567"
+            href="tel:(902)802-9044"
             className="hidden md:inline-flex items-center gap-2 rounded-full bg-[#1172ae] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#3b9dd4] transition-colors duration-200 shadow-lg shadow-[#1172ae]/25"
           >
             <Phone className="h-4 w-4" />
@@ -102,7 +102,7 @@ export default function Navbar() {
               ))}
               <li>
                 <a
-                  href="tel:+15551234567"
+                  href="tel:(902)802-9044"
                   className="inline-flex items-center gap-2 rounded-full bg-[#1172ae] px-6 py-3 text-sm font-semibold text-white"
                 >
                   <Phone className="h-4 w-4" />

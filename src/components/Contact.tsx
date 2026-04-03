@@ -98,7 +98,7 @@ export default function Contact() {
               <h3 className="font-semibold text-lg text-black">Contact Information</h3>
 
               <a
-                href="tel:+15551234567"
+                href="tel:(902)802-9044"
                 className="flex items-start gap-4 group"
               >
                 <div className="rounded-lg bg-[#1172ae]/10 p-2.5">
@@ -107,13 +107,13 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-gray-500">Phone</p>
                   <p className="font-medium text-black group-hover:text-[#1172ae] transition-colors">
-                    (555) 123-4567
+                    (902) 802-9044
                   </p>
                 </div>
               </a>
 
               <a
-                href="mailto:info@marshallelectric.com"
+                href="mailto:derrick@marshallelectrichfx.com"
                 className="flex items-start gap-4 group"
               >
                 <div className="rounded-lg bg-[#1172ae]/10 p-2.5">
@@ -122,7 +122,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
                   <p className="font-medium text-black group-hover:text-[#1172ae] transition-colors">
-                    info@marshallelectric.com
+                    derrick@marshallelectrichfx.com
                   </p>
                 </div>
               </a>
