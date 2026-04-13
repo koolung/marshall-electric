@@ -62,7 +62,7 @@ export default function Services() {
               className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white transition-all duration-300 hover:border-[#1172ae]/30 hover:shadow-lg hover:shadow-[#1172ae]/5"
             >
               {/* Image */}
-              <div className="relative md:h-60 h-48 overflow-hidden bg-gray-100">
+              <Link href={`/services/${s.slug}`} className="relative md:h-60 h-48 overflow-hidden bg-gray-100 block">
                 <Image
                   src={s.image}
                   alt={s.title}
@@ -71,7 +71,7 @@ export default function Services() {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t md:from-white/0 from-white/0 to-transparent" />
-              </div>
+              </Link>
 
               {/* Content */}
               <div className="relative z-10 flex flex-1 flex-col p-6">

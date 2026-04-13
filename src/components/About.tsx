@@ -28,9 +28,8 @@ export default function About() {
               About Us
             </span>
             <h2 className="mt-3 text-3xl font-bold text-black sm:text-4xl md:text-5xl leading-tight">
-              Who
-              <br />
-              <span className="text-[#1172ae]">We Are</span>
+              Who 
+              <span className="text-[#1172ae]"> We Are</span>
             </h2>
             <p className="mt-6 text-gray-600 leading-relaxed">
               Marshall Electric is a locally-owned and operated business that was
