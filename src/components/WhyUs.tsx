@@ -33,8 +33,8 @@ const reasons = [
   },
   {
     icon: HeadphonesIcon,
-    title: "24/7 Support",
-    desc: "Electrical emergencies don't wait, and neither do we. Round-the-clock emergency support.",
+    title: "Prompt Support",
+    desc: "Have questions or need help? We are ready to assist you anytime during the business hours.",
   },
   {
     icon: Sparkles,

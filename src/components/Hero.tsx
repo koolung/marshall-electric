@@ -89,10 +89,6 @@ export default function Hero() {
           className="mt-5 md:mt-16 flex flex-wrap items-center justify-center gap-2 md:gap-8 text-sm text-white/70"
         >
           <div className="flex items-center gap-2">
-            <Clock className="h-4 w-4 text-[#3b9dd4]" />
-            <span>24/7 Emergency Service</span>
-          </div>
-          <div className="flex items-center gap-2">
             <Award className="h-4 w-4 text-[#3b9dd4]" />
             <span>15+ Years Experience</span>
           </div>
