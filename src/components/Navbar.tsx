@@ -37,11 +37,11 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#hero" className="flex items-center gap-2 group">
           <div className="relative">
-            <Zap className={`h-8 w-8 transition-transform duration-300 group-hover:scale-110 ${scrolled ? "text-[#1172ae]" : "text-white"}`} />
+            <img src={scrolled ? "images/logo.svg" : "images/logo-white.svg"} alt="Logo" className={`h-14 w-28 transition-transform duration-300 group-hover:scale-110 ${scrolled ? "text-[#1172ae]" : "text-white"}`} />
           </div>
-          <span className={`text-xl font-bold tracking-tight ${scrolled ? "text-black" : "text-white"}`}>
+          {/* <span className={`text-xl font-bold tracking-tight ${scrolled ? "text-black" : "text-white"}`}>
             Marshall <span className="text-[#1172ae]">Electric</span>
-          </span>
+          </span> */}
         </a>
 
         {/* Desktop links */}
