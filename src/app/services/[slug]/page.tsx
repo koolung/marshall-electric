@@ -30,7 +30,7 @@ export default async function ServicePage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar forceDarkLogo />
       <main>
         <ServicePageContent slug={slug} />
       </main>

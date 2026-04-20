@@ -5,14 +5,18 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Zap, Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
-  { label: "Home", href: "#hero" },
-  { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Services", href: "/#services" },
+  { label: "About", href: "/#about" },
+  { label: "Why Us", href: "/#why-us" },
+  { label: "Contact", href: "/#contact" },
 ];
 
-export default function Navbar() {
+interface NavbarProps {
+  forceDarkLogo?: boolean;
+}
+
+export default function Navbar({ forceDarkLogo = false }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -35,9 +39,9 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
-        <a href="#hero" className="flex items-center gap-2 group">
+        <a href="/" className="flex items-center gap-2 group">
           <div className="relative">
-            <img src={scrolled ? "images/logo.svg" : "images/logo-white.svg"} alt="Logo" className={`h-14 w-28 transition-transform duration-300 group-hover:scale-110 ${scrolled ? "text-[#1172ae]" : "text-white"}`} />
+            <img src={forceDarkLogo || scrolled ? "/images/logo.svg" : "/images/logo-white.svg"} alt="Logo" className={`h-14 w-28 transition-transform duration-300 group-hover:scale-110 ${forceDarkLogo || scrolled ? "text-[#1172ae]" : "text-white"}`} />
           </div>
           {/* <span className={`text-xl font-bold tracking-tight ${scrolled ? "text-black" : "text-white"}`}>
             Marshall <span className="text-[#1172ae]">Electric</span>
